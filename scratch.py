@@ -1,7 +1,6 @@
-def inc(alist):
-  if len(alist) == 2:
-    return alist[0] <= alist[1]
-  if alist[0] > alist[1]:
-    return False
-  return inc(alist[1:])
-print(inc([1, 2, 5, 4, 8]))
+number = str(input())
+a = number[::-1]
+if number == a:
+  print("yes")
+else:
+  print("no")
